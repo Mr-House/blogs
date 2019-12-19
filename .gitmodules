@@ -1,8 +1,8 @@
-[submodule "themes/jan"]
-	path = themes/jan
-	url = https://github.com/xianmin/hugo-theme-jane.git
-	branch = master
 [submodule "themes/jane"]
 	path = themes/jane
 	url = https://github.com/xianmin/hugo-theme-jane.git
+	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/Mr-House/mr-house.github.io.git
 	branch = master
