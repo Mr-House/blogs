@@ -4,6 +4,7 @@ if [ $# -lt  1 ]; then
     exit 1
 fi
 msg="$1"
+git add .
 git commit -m "$msg"
 if [ $? -ne 0 ]; then
     echo "Commit failed"
